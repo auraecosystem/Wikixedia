@@ -1,0 +1,113 @@
+== 🌐 Web4 Documentation ==
+
+Welcome to the official documentation for the Web4 Ecosystem.
+
+This wiki is the central documentation hub for the Web4 platform and its associated projects. It includes technical documentation, architecture guides, APIs, SDKs, tutorials, deployment guides, and developer resources.
+
+== 📖 Documentation ==
+
+* [[Getting Started]]
+* [[Installation]]
+* [[Quick Start]]
+* [[Architecture]]
+* [[API Reference]]
+* [[SDK Documentation]]
+* [[Authentication]]
+* [[Deployment]]
+* [[Configuration]]
+* [[Reference]]
+
+
+- [[Web4]]
+- [[QubuHub]]
+- [[Aura Ecosystem]]
+- [[Fadaka Blockchain]]
+- [[GPT-5 Mini]]
+- [[RODAAI]]
+- [[LMLM]]
+- [[NeuroMindAI]]
+- [[LAMIS]]
+
+---
+
+== 📖 Documentation ==
+
+- [[Getting Started]]
+- [[Installation]]
+- [[Architecture]]
+- [[API]]
+- [[Tutorials]]
+- [[Reference]]
+
+---
+
+== 🛠 Developers ==
+
+- [[Contributing]]
+- [[Coding Standards]]
+- [[Docker]]
+- [[CI/CD]]
+- [[Release Process]]
+
+== 🚀 Projects ==
+
+* [[Web4]]
+* [[QubuHub]]
+* [[Aura Ecosystem]]
+* [[Fadaka Blockchain]]
+* [[GPT-5 Mini]]
+* [[RODAAI]]
+* [[LMLM]]
+* [[NeuroMindAI]]
+* [[LAMIS]]
+⸻
+
+🛠 Developer Resources
+
+* [[Contributing]]
+* [[Coding Standards]]
+* [[Project Structure]]
+* [[Docker]]
+* [[CI/CD]]
+* [[Security]]
+* [[Testing]]
+* [[Release Process]]
+
+⸻
+
+== 📚 Tutorials ==
+
+* [[Build Your First AI]]
+* [[Create an API]]
+* [[Deploy to Production]]
+* [[Blockchain Development]]
+* [[AI Agents]]
+* [[Model Integration]]
+
+⸻
+
+== 📚 Resources ==
+
+* [[Roadmap]]
+* [[FAQ]]
+* [[Changelog]]
+* [[License]]
+* [[Glossary]]
+
+⸻
+
+== 🤝 Community ==
+
+* [[Discussions]]
+* [[Issues]]
+* [[Feature Requests]]
+* [[Releases]]
+
+⸻
+
+== 📚 Resources ==
+
+- [[Roadmap]]
+- [[FAQ]]
+- [[Changelog]]
+- [[License]]
