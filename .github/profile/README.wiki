@@ -1,0 +1,81 @@
+🌐 Web4 Documentation
+
+Welcome to the official documentation for the Web4 Ecosystem.
+
+This wiki is the central documentation hub for the Web4 platform and its associated projects. It includes technical documentation, architecture guides, APIs, SDKs, tutorials, deployment guides, and developer resources.
+
+⸻
+
+🚀 Projects
+
+* [[Web4]]
+* [[QubuHub]]
+* [[Aura Ecosystem]]
+* [[Fadaka Blockchain]]
+* [[GPT-5 Mini]]
+* [[RODAAI]]
+* [[LMLM]]
+* [[NeuroMindAI]]
+* [[LAMIS]]
+
+⸻
+
+📖 Documentation
+
+* [[Getting Started]]
+* [[Installation]]
+* [[Quick Start]]
+* [[Architecture]]
+* [[API Reference]]
+* [[SDK Documentation]]
+* [[Authentication]]
+* [[Deployment]]
+* [[Configuration]]
+* [[Reference]]
+
+⸻
+
+🛠 Developer Resources
+
+* [[Contributing]]
+* [[Coding Standards]]
+* [[Project Structure]]
+* [[Docker]]
+* [[CI/CD]]
+* [[Security]]
+* [[Testing]]
+* [[Release Process]]
+
+⸻
+
+📚 Tutorials
+
+* [[Build Your First AI]]
+* [[Create an API]]
+* [[Deploy to Production]]
+* [[Blockchain Development]]
+* [[AI Agents]]
+* [[Model Integration]]
+
+⸻
+
+📚 Resources
+
+* [[Roadmap]]
+* [[FAQ]]
+* [[Changelog]]
+* [[License]]
+* [[Glossary]]
+
+⸻
+
+🤝 Community
+
+* [[Discussions]]
+* [[Issues]]
+* [[Feature Requests]]
+* [[Releases]]
+
+⸻
+
+Web4 is an ecosystem focused on artificial intelligence, blockchain, cloud technologies, automation, and modern software development. This documentation is designed to help developers, contributors, and users explore, build, and extend the platform.
