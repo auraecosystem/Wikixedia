@@ -92,7 +92,6 @@ Welcome to the Web4 Ecosystem documentation. Explore the guides, contribute to t
 =  wikixedia Documentation Portal =
 
 Welcome to the official Web4 wikixedia documentation.
-
 This wiki contains documentation for the complete Web4 ecosystem, including AI, blockchain, cloud infrastructure, APIs, SDKs, and developer resources.
 
 ------------------------------------------------------------
