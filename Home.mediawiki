@@ -1,30 +1,49 @@
-Welcome to the web4.arpa wiki!
+Welcome to the Web4.arpa Wiki
 
+Welcome to the official documentation for Web4.arpa
 
-* 🏠 Home
-* 🚀 Getting Started
-* 📦 Installation
-* ⚡ Quick Start
-* 🏗️ Architecture
-* 📁 Project Structure
-* ⚙️ Configuration
-* 🔌 API Documentation
-* 🤖 AI Services
-* ⛓️ Blockchain
-* 🔐 Authentication
-* 🗄️ Database
-* 🐳 Docker
-* ☸️ Kubernetes
-* 🚀 Deployment
-* 💻 CLI Reference
-* 📚 SDKs
-* 📝 Tutorials
-* 🧪 Examples
-* 🛠️ Troubleshooting
-* ❓ FAQ
-* 🤝 Contributing
-* 📜 Code of Conduct
-* 🛡️ Security Policy
-* 🗺️ Roadmap
-* 📋 Changelog
+Web4 is an open platform designed to bring together artificial intelligence, blockchain, decentralized applications, cloud infrastructure, and developer tooling into a unified ecosystem.
 
+This wiki provides everything needed to build, deploy, and contribute to the project.
+
+Documentation
+
+* Getting Started
+* Installation
+* Configuration
+* Architecture
+* API Reference
+* SDKs
+* Smart Contracts
+* AI Services
+* Deployment Guide
+* Security
+* FAQ
+* Contributing
+
+Features
+
+* AI-powered services
+* Blockchain integration
+* REST and WebSocket APIs
+* Developer SDKs
+* Authentication and authorization
+* Scalable microservices
+* Cloud-native deployment
+* Open-source architecture
+
+Getting Started
+
+Clone the repository:
+
+git clone https://github.com/QUBUHUB/web4app4.git
+
+Follow the Installation guide to configure your development environment and launch the platform.
+
+Contributing
+
+Contributions are welcome. Please read the Contributing guide before submitting issues or pull requests.
+
+License
+
+Refer to the project’s license for usage terms and conditions.
