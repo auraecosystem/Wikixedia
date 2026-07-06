@@ -1,4 +1,4 @@
-Welcome to the Web4.arpa Wiki
+# Welcome to the Web4.arpa Wiki
 
 Welcome to the official documentation for Web4.arpa
 
@@ -6,7 +6,7 @@ Web4 is an open platform designed to bring together artificial intelligence, blo
 
 This wiki provides everything needed to build, deploy, and contribute to the project.
 
-Documentation
+## Documentation
 
 * Getting Started
 * Installation
@@ -21,7 +21,7 @@ Documentation
 * FAQ
 * Contributing
 
-Features
+### Features
 
 * AI-powered services
 * Blockchain integration
@@ -32,7 +32,7 @@ Features
 * Cloud-native deployment
 * Open-source architecture
 
-Getting Started
+## Getting Started
 
 Clone the repository:
 
