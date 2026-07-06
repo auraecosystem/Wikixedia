@@ -1,7 +1,7 @@
-# Web4.arpaa Wiki
+⸻
 
-## 
-* 🏠 Home
+Home: https://web4.arpa
+
 * 🚀 Getting Started
 * 📦 Installation
 * ⚡ Quick Start
@@ -27,5 +27,3 @@
 * 🛡️ Security Policy
 * 🗺️ Roadmap
 * 📋 Changelog
-
-### 
