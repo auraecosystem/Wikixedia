@@ -1,49 +1,49 @@
-⸻
-
-
 # Welcome to the Web4.arpa Wiki
 
-Welcome to the official documentation for Web4.arpa
+Welcome to the official documentation for Web4.arpa.
 
-Web4 is an open platform designed to bring together artificial intelligence, blockchain, decentralized applications, cloud infrastructure, and developer tooling into a unified ecosystem.
+Web4.arpa is an open platform that brings AI, blockchain, decentralized applications, cloud infrastructure, and developer tooling together in one ecosystem. It is built for developers, teams, and contributors who want to create, deploy, and scale modern web applications without stitching together separate systems.
 
-This wiki provides everything needed to build, deploy, and contribute to the project.
+This wiki is your guide to getting started, understanding the platform, and contributing to the project.
 
-## Documentation
+# Documentation
 
-* Getting Started
-* Installation
-* Configuration
-* Architecture
-* API Reference
-* SDKs
-* Smart Contracts
-* AI Services
-* Deployment Guide
-* Security
-* FAQ
-* Contributing
+* Setup
+    * Getting started
+    * Installation
+    * Configuration
+* Platform
+    * Architecture
+    * API reference
+    * SDKs
+    * Smart contracts
+    * AI services
+    * Deployment guide
+    * Security
+* Support
+    * FAQ
 
-### Features
+## Features
 
-* AI-powered services
-* Blockchain integration
-* REST and WebSocket APIs
-* Developer SDKs
-* Authentication and authorization
-* Scalable microservices
-* Cloud-native deployment
-* Open-source architecture
+* Core capabilities
+    * AI-powered services
+    * Blockchain integration
+    * REST and WebSocket APIs
+    * Developer SDKs
+* Platform capabilities
+    * Authentication and authorization
+    * Scalable microservices architecture
+    * Cloud-native deployment
+    * Open-source architecture
 
 ## Getting Started
 
 Clone the repository:
-
-git clone https://github.com/QUBUHUB/web4app4.git
+[git clone](https://github.com/QUBUHUB/web4app4.git)
 
 Follow the Installation guide to configure your development environment and launch the platform.
 
-Contributing
+### Contributing
 
 Contributions are welcome. Please read the Contributing guide before submitting issues or pull requests.
 
