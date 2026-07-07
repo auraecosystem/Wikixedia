@@ -6,7 +6,7 @@
 @toc true
 @search true
 
-# Welcome
+#  Welcome
 
 Welcome to the Web4 documentation portal.
 
