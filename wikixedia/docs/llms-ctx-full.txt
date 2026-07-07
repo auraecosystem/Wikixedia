@@ -474,4 +474,100 @@ Orchestration
 CI/CD
 └── GitHub Actions
 
+`CLAUDE.MD`
+.claude/....the next step is to stop planning and start implementing the core platform.
+make ``@chatgpt`` Build an advanced functional system first, then iterate.
+
+
+1. Initialize the repository
+
+wikixedia/
+├── apps/
+├── packages/
+├── docs/
+├── tests/
+├── docker/
+├── .github/
+├── README.md
+├── LICENSE
+└── .gitignore
+
+2. Define the .nf specification
+    * Grammar
+    * Metadata
+    * Headings
+    * Lists
+    * Tables
+    * Internal links
+    * Code blocks
+    * Images
+3. Build the NF parser
+
+index.nf
+    ↓
+Lexer
+    ↓
+Parser
+    ↓
+AST
+    ↓
+HTML
+
+4. Create the HTML renderer
+    * Convert the AST into HTML.
+    * Generate a table of contents.
+    * Resolve internal wiki links.
+5. Develop the FastAPI backend
+    * User authentication
+    * Page CRUD
+    * Search endpoint
+    * File uploads
+    * REST API
+6. Set up PostgreSQL
+    * Users
+    * Pages
+    * Revisions
+    * Comments
+    * Attachments
+    * Tags
+7. Build the Next.js frontend
+    * Home page
+    * Wiki page viewer
+    * Editor
+    * Search
+    * Login
+8. Add search
+    * Full-text search initially.
+    * Later, semantic search with embeddings.
+9. Implement version history
+    * Every page edit creates a revision.
+    * Support diffing and rollback.
+10. Integrate AI
+    * Documentation generation
+    * Summarization
+    * Translation
+    * AI Q&A
+11. Containerize the application
+    * Docker
+    * Docker Compose
+    * Production deployment
+12. Automate with GitHub Actions
+    * Linting
+    * Testing
+    * Build
+    * Docker image creation
+    * Deployment
+
+>_gh copilot focus on advanced capabilities such as plugins, multi-language documentation, analytics, and enterprise features.
+
+The first major milestone should be:
+
+* ✅ Parse .nf files.
+* ✅ Render them to HTML.
+* ✅ Serve them through the FastAPI backend.
+* ✅ Display them in the Next.js frontend.
+
+a documentation platform. that Every subsequent feature builds on its foundation.
+
+
 ''© 2026 Web4 Ecosystem. All rights reserved.''
