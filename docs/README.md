@@ -4,7 +4,7 @@ Welcome to the official Web4 documentation.
 
 This wiki contains documentation for the complete Web4 ecosystem, including AI, blockchain, cloud infrastructure, APIs, SDKs, and developer resources.
 
-------------------------------------------------------------
+-----------------------------------------------------------
 
 == Projects ==
 
