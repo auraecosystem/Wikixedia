@@ -1,0 +1,54 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'org.wikixedia'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.commonmark:commonmark:0.22.0'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.11.0'
+}
+
+application {
+    mainClass = 'org.wikixedia.Main'
+}
+
+tasks.test {
+    useJUnitPlatform()
+}
+
+task buildDocs(type: JavaExec) {
+    group = "documentation"
+    description = "Build Wikixedia documentation"
+
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = "org.wikixedia.docs.NFCompiler"
+
+    args = [
+        "docs/",
+        "build/docs/"
+    ]
+}
+
+task cleanDocs(type: Delete) {
+    delete "build/docs"
+}
+
+task serveDocs(type: JavaExec) {
+    group = "documentation"
+
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = "org.wikixedia.server.DocServer"
+
+    args = [
+        "build/docs",
+        "8080"
+    ]
+}
