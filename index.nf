@@ -1,47 +1,68 @@
 @title Web4 Documentation Portal
 @description Official documentation for the Web4 Ecosystem
-@version 1.0
+@version 1.0.0
 @author Aura Ecosystem
-@theme default
+@theme web4
+@toc true
+@search true
 
-# Web4 Documentation Portal
+# Welcome
 
-Welcome to the official documentation for Web4.
+Welcome to the Web4 documentation portal.
 
 ## Projects
 
-- Web4
-- QubuHub
-- AuraEcosystem
-- Fadaka-Blockchain
-- GPT-5-Mini
-- RODAAI
-- NeuroMindAI
-- LAMIS
+- [[Web4]]
+- [[QubuHub]]
+- [[Aura Ecosystem]]
+- [[Fadaka Blockchain]]
+- [[GPT-5 Mini]]
+- [[RODAAI]]
 
 ## Documentation
 
-- Getting Started
-- Installation
-- Quick Start
-- Architecture
-- API Reference
-- SDK Documentation
-- Authentication
-- Deployment
-- Configuration
+- [[Getting Started]]
+- [[Installation]]
+- [[Architecture]]
+- [[API Reference]]
 
-## Tutorials
+!!! note
+    This documentation is automatically indexed by Wikixedia Search.
 
-- Build Your First AI
-- AI Agents
-- Blockchain Development
-- Deploy to Production
+## Example
 
-## Reference
+```python
+print("Hello, Web4!")
 
-- CLI Commands
-- Environment Variables
-- Error Codes
-- FAQ
-- Changelog
+:::mermaid
+graph TD
+User –> Wikixedia
+Wikixedia –> Parser
+Parser –> HTML
+Parser –> PDF
+Parser –> API
+:::
+
+The corresponding architecture might look like:
+
+```text
+                index.nf
+                    │
+          ┌─────────▼─────────┐
+          │   NF Lexer         │
+          └─────────┬─────────┘
+                    │
+          ┌─────────▼─────────┐
+          │   NF Parser        │
+          └─────────┬─────────┘
+                    │
+          ┌─────────▼─────────┐
+          │  Abstract Syntax   │
+          │      Tree (AST)    │
+          └─────────┬─────────┘
+                    │
+      ┌─────────────┼─────────────┐
+      ▼             ▼             ▼
+   HTML         Markdown        PDF
+      ▼             ▼             ▼
+  Static Site    GitHub Docs    Print
