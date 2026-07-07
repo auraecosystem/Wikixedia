@@ -1,0 +1,77 @@
+= Web4 Documentation Portal =
+
+Welcome to the official Web4 documentation.
+
+This wiki contains documentation for the complete Web4 ecosystem, including AI, blockchain, cloud infrastructure, APIs, SDKs, and developer resources.
+
+------------------------------------------------------------
+
+== Projects ==
+
+* Web4
+* QubuHub
+* Aura Ecosystem
+* Fadaka Blockchain
+* GPT-5 Mini
+* RODAAI
+* NeuroMindAI
+* LAMIS
+
+------------------------------------------------------------
+
+== Documentation ==
+
+* Getting Started
+* Installation
+* Quick Start
+* Architecture
+* API Reference
+* SDK Documentation
+* Authentication
+* Deployment
+* Configuration
+
+------------------------------------------------------------
+
+== Developer Resources ==
+
+* Project Structure
+* Coding Standards
+* Contributing Guide
+* Docker
+* CI/CD
+* Security
+
+------------------------------------------------------------
+
+== Tutorials ==
+
+* Build Your First AI
+* Create an API
+* Deploy to Production
+* Blockchain Development
+* AI Agents
+* Model Integration
+
+------------------------------------------------------------
+
+== Reference ==
+
+* CLI Commands
+* Environment Variables
+* Error Codes
+* FAQ
+* Changelog
+
+------------------------------------------------------------
+
+== Community ==
+
+* Discussions
+* Issues
+* Roadmap
+* Releases
+
+------------------------------------------------------------
+
+© 2026 Web4 Ecosystem.
