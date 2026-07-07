@@ -349,5 +349,37 @@ NF Build Engine
      └── Launch development server
 
 [[script.nf ]] focused on orchestration while the parser and renderers handle the document processing. As Wikixedia evolves and extend its build engine with plugins, custom directives, and additional output formats without changing the overall workflow.
+Frontend
+└── Next.js + React + TypeScript
+
+Backend
+└── FastAPI (Python)
+
+Parser
+└── Python (NF Parser)
+
+AI
+└── Python
+
+Database
+└── PostgreSQL
+
+Cache
+└── Redis
+
+Search
+└── OpenSearch
+
+Storage
+└── MinIO
+
+Container
+└── Docker
+
+Orchestration
+└── Kubernetes
+
+CI/CD
+└── GitHub Actions
 
 ''© 2026 Web4 Ecosystem. All rights reserved.''
