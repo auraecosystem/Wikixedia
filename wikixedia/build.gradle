@@ -1,0 +1,14 @@
+@project Wikixedia
+@version 1.0.0
+
+source "docs"
+
+build html
+build pdf
+build markdown
+
+search-index
+
+copy assets/
+
+serve 8080
