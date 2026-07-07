@@ -277,4 +277,77 @@ A sensible first milestone would include:
 * Complete documentation
 
  AI features, plugins, versioning, and  advanced functionality. This results in a maintainable, production-grade codebase rather than an unmanageable single dump of code.
+
+ execution script that parses and renders .nf files. A simple approach is to use Python as the runtime.
+
+Example project layout:
+
+wikixedia/
+├── script.nf
+├── parser.py
+├── renderer.py
+├── main.py
+└── docs/
+    └── index.nf
+
+A sample script.nf could define the document to process and the output format:
+
+@version 1.0
+load "docs/index.nf"
+render html
+output "./build/index.html"
+toc true
+search true
+build
+
+A corresponding main.py might look like:
+
+from parser import NFParser
+from renderer import HTMLRenderer
+parser = NFParser()
+document = parser.parse_file("docs/index.nf")
+renderer = HTMLRenderer(document)
+renderer.render("build/index.html")
+print("Build completed successfully.")
+
+For a more powerful design, you can treat script.nf as a build script similar to a Makefile or build.gradle. For example:
+
+@project Wikixedia
+@version 1.0.0
+source "docs"
+build html
+build pdf
+build markdown
+search-index
+copy assets/
+serve 8080
+
+Each directive performs a build task:
+
+* source — directory containing .nf files.
+* build html — generate HTML.
+* build pdf — generate PDF.
+* build markdown — export Markdown.
+* search-index — create a search index.
+* copy — copy static assets.
+* serve — start a local development server.
+
+The execution flow would be:
+
+script.nf
+     │
+     ▼
+NF Build Engine
+     │
+     ├── Parse .nf files
+     ├── Validate syntax
+     ├── Build HTML
+     ├── Build PDF
+     ├── Build Markdown
+     ├── Copy assets
+     ├── Generate search index
+     └── Launch development server
+
+[[script.nf ]] focused on orchestration while the parser and renderers handle the document processing. As Wikixedia evolves and extend its build engine with plugins, custom directives, and additional output formats without changing the overall workflow.
+
 ''© 2026 Web4 Ecosystem. All rights reserved.''
