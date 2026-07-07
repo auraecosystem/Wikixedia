@@ -1,154 +1,108 @@
-🌐 Web4 Documentation
+= Web4 Documentation Portal
 
 Welcome to the official documentation for the Web4 Ecosystem.
 
-This wiki is the central documentation hub for the Web4 platform and its associated projects. It includes technical documentation, architecture guides, APIs, SDKs, tutorials, deployment guides, and developer resources.
+Web4 is a next-generation platform for building intelligent, scalable, and interconnected applications. The ecosystem includes artificial intelligence, blockchain, cloud infrastructure, APIs, SDKs, developer tools, and modern deployment solutions.
 
-⸻
+== Projects
 
-🚀 Projects
+* Web4
+* QubuHub
+* Aura Ecosystem
+* Fadaka Blockchain
+* GPT-5 Mini
+* RODAAI
+* NeuroMindAI
+* LAMIS
 
-* [[Web4]]
-* [[QubuHub]]
-* [[Aura Ecosystem]]
-* [[Fadaka Blockchain]]
-* [[GPT-5 Mini]]
-* [[RODAAI]]
-* [[LMLM]]
-* [[NeuroMindAI]]
-* [[LAMIS]]
+== Getting Started
 
-⸻
-
-📖 Documentation
-
-* [[Getting Started]]
-* [[Installation]]
-* [[Quick Start]]
-* [[Architecture]]
-* [[API Reference]]
-* [[SDK Documentation]]
-* [[Authentication]]
-* [[Deployment]]
-* [[Configuration]]
-* [[Reference]]
-
-⸻
-
-🛠 Developer Resources
-
-* [[Contributing]]
-* [[Coding Standards]]
-* [[Project Structure]]
-* [[Docker]]
-* [[CI/CD]]
-* [[Security]]
-* [[Testing]]
-* [[Release Process]]
-
-⸻
-
-📚 Tutorials
-
-* [[Build Your First AI]]
-* [[Create an API]]
-* [[Deploy to Production]]
-* [[Blockchain Development]]
-* [[AI Agents]]
-* [[Model Integration]]
-
-⸻
-
-📚 Resources
-
-* [[Roadmap]]
-* [[FAQ]]
-* [[Changelog]]
-* [[License]]
-* [[Glossary]]
-
-⸻
-
-🤝 Community
-
-* [[Discussions]]
-* [[Issues]]
-* [[Feature Requests]]
-* [[Releases]]
-
-⸻
-
-Web4 is an ecosystem focused on artificial intelligence, blockchain, cloud technologies, automation, and modern software development. This documentation is designed to help developers, contributors, and users explore, build, and extend the platform.
-
-
-[[web4]]
-├── [[README.md]]
-├── [[LICENSE]]
-├── [CONTRIBUTING.md]]
-├── [[CHANGELOG.md]]
-├── docs/
-│   ├── [[index.md]]
-│   ├── [[getting-started/]]
-│   ├── installation/
-│   ├── architecture/
-│   ├── api/
-│   ├── sdk/
-│   ├── tutorials/
-│   ├── reference/
-│   ├── security/
-│   ├── deployment/
-│   └── projects/
-│       ├── [[web4.md]]
-│       ├── [[qubuhub.md]]
-│       ├── aura-ecosystem.md
-│       ├── [[fadaka-blockchain.md]]
-│       ├── [[gpt5-mini.md]]
-│       ├── rodaai.md
-│       ├── neuromindai.md
-│       └── lamis.md
-├── wiki/
-│   ├── Home.md
-│   ├── FAQ.md
-│   ├── Roadmap.md
-│   ├── Community.md
-│   └── Releases.md
-└── src/
-    └── docs/
-        └── index.rdoc
-
-As the ecosystem expands, you can add documentation for additional components without restructuring the site.
-
-For a production-quality documentation portal, consider including:
-
-* Overview
-* Getting Started
+* Introduction
 * Installation
 * Quick Start
+* First Project
+* Tutorials
+
+== Documentation
+
 * Architecture
-* AI Services
-* Blockchain
-* Cloud Infrastructure
 * API Reference
 * SDK Documentation
-* CLI Reference
-* Configuration
 * Authentication
-* Database
+* Configuration
 * Deployment
+* Project Structure
+
+== Platform
+
+* AI Services
+* Blockchain
+* Database
 * Docker
 * Kubernetes
-* CI/CD
+* Cloud Infrastructure
+
+== Developer Resources
+
+* CLI Commands
+* Environment Variables
+* Coding Standards
 * Security
-* Performance
-* Monitoring
-* Tutorials
-* Examples
+* CI/CD
+* Contributing Guide
+
+== Tutorials
+
+* Build Your First AI
+* Create an API
+* AI Agents
+* Blockchain Development
+* Model Integration
+* Deploy to Production
+
+== Reference
+
+* Error Codes
 * Troubleshooting
 * FAQ
 * Changelog
+
+== Community
+
+* Discussions
+* Issues
 * Roadmap
-* Contributing
-* Code of Conduct
-* License
 * Releases
 
+== Where to Begin
+
+=== New Users
+
+Start with:
+
+* Introduction
+* Installation
+* Quick Start
+
+=== Developers
+
+Read:
+
+* Architecture
+* API Reference
+* SDK Documentation
+
+=== Operators
+
+Review:
+
+* Deployment
+* Configuration
+* Security
+* Monitoring
+
+== License
+
+Copyright (c) 2026 Web4 Ecosystem.
+
+All rights reserved.
