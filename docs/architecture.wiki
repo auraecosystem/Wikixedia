@@ -1,35 +1,56 @@
 == Wikixedia ==
 
-├── [[README.md]]
+[[README.md]]
+
 ├── [[LICENSE]]
+
 ├── [[CONTRIBUTING.md]]
+
 ├── [[CODE_OF_CONDUCT.md]]
+
 ├── [[SECURITY.md]]
+
 ├── [[CHANGELOG.md]]
-├── docs/
+
+├── [[docs/]]
 │   ├── [[index.md]]
-│   ├── [[getting-started.md]]
-│   ├── [[installation.md]{
-│   ├──[[ architecture.md]]
-│   ├── [[api.md
-│   ├──[[ sdk.md]]
-│   ├── tutorials/
-│   ├──== reference/ ==
-│   └── == projects/ ==
-├── == wiki/ ==
-│   ├── [[Home.md{]
-│   ├── [[Sidebar.md]]
-│   ├── [[Footer.md]]
-│   └──[[ _Sidebar.md]]
-├── src/
-│   └── docs/
-│       └──][ index.rdoc]]
-└── assets/
-    ├── images/
-    └── logos/
+│   
+├──[[getting-started.md]]
+│   
+├── [[installation.md]{
+│   
+    ├──[[ architecture.md]]
+│  
+    ├── [[api.md
+│   
+          ├──[[sdk.md]]
+│  
+          ├── [[tutorials/]]
+│   
+          ├──[[ reference]]
+│   └── 
+          [[projects/]] ==
+├── 
+          [[wiki/]] 
+│   
+          ├── [[Home.md{]
+│   
+                        ├── [[Sidebar.md]]
+                        ├── [[Footer.md]]
+│    
+└──
+                        
+                        [[_Sidebar.md]]
 
+                        ├── src/
+ 
+                        [[docs/]]       
+                        └─[[index.rdoc]]
+                        └── [[assets/]]
+                        ├── [[images/]]
+                        └── [[logos/]]
 
-Core Platform
+== Core Platform ==
 
 * Markdown support
 * MediaWiki syntax support
@@ -49,7 +70,7 @@ Core Platform
 * Autosave
 * Drafts
 
-Knowledge Base
+== Knowledge Base ==
 
 * Documentation portal
 * Project documentation
@@ -63,7 +84,7 @@ Knowledge Base
 * Changelog
 * Architecture Decision Records (ADRs)
 
-Search
+== Search ==
 
 * Full-text search
 * Fuzzy search
@@ -72,7 +93,7 @@ Search
 * Code search
 * Search suggestions
 
-AI Features
+== AI Features ==
 
 * AI documentation generation
 * Automatic API documentation
@@ -85,7 +106,7 @@ AI Features
 * Intelligent link suggestions
 * Duplicate content detection
 
-Developer Tools
+== Developer Tools ==
 
 * OpenAPI/Swagger rendering
 * GraphQL documentation
@@ -99,7 +120,7 @@ Developer Tools
 * LaTeX math
 * Interactive notebooks
 
-Collaboration
+== Collaboration ==
 
 * Comments
 * Discussions
@@ -111,7 +132,7 @@ Collaboration
 * Notifications
 * Activity feed
 
-Authentication
+== Authentication ==
 
 * Local accounts
 * OAuth
@@ -123,7 +144,7 @@ Authentication
 * Two-factor authentication
 * Role-based access control
 
-Git Integration
+== Git Integration ==
 
 * GitHub
 * GitLab
@@ -134,7 +155,7 @@ Git Integration
 * CI/CD integration
 * Automatic deployments
 
-DevOps
+== DevOps ==
 
 * Docker
 * Docker Compose
@@ -147,7 +168,7 @@ DevOps
 * CDN support
 * Backup and restore
 
-Security
+== Security ==
 
 * HTTPS
 * Content Security Policy
@@ -158,7 +179,7 @@ Security
 * Vulnerability scanning
 * Spam protection
 
-Administration
+== Administration ==
 
 * Admin dashboard
 * Analytics
@@ -169,7 +190,7 @@ Administration
 * Extension marketplace
 * Configuration UI
 
-User Experience
+== User Experience ==
 
 * Responsive design
 * Dark mode
@@ -181,21 +202,19 @@ User Experience
 * Bookmarks
 * Recently viewed
 * Offline support (PWA)
-
-Import/Export
-
-* Markdown
-* HTML
-* PDF
-* DOCX
-* EPUB
-* JSON
-* YAML
-* CSV
-* ZIP
-* MediaWiki XML
-
-APIs
+[[]]
+== Import/Export ==
+* [[Markdown]]
+* [[HTML]]
+* [[PDF]]
+* [[DOCX]]
+* [[EPUB]]
+* [[JSON]]
+* [[YAML]]
+* [[CSV]]
+* [[ZIP]]
+* [[MediaWiki XML]]
+== APIs ==
 
 * REST API
 * GraphQL API
@@ -212,7 +231,7 @@ APIs
 * Tracing
 * Performance profiling
 
-[[Plugin System]]
+== Plugin System ==
 
 * Custom themes
 * Authentication plugins
@@ -223,14 +242,14 @@ APIs
 * Editor extensions
 * Custom page types
 
-Multi-language
+== Multi-language ==
 
 * Internationalization (i18n)
 * Localization (l10n)
 * Automatic translation
 * Per-language documentation versions
 
-Web4 Ecosystem Integration
+== Web4 Ecosystem Integration ==
 
 * Web4 documentation hub
 * QubuHub documentation
@@ -243,7 +262,7 @@ Web4 Ecosystem Integration
 * Shared API reference
 * Unified search across projects
 
-A practical technology stack for this 
+== A practical technology stack for this ==
 
 [[vision could be]]
 * Frontend: React + Next.js + TypeScript
@@ -257,23 +276,23 @@ A practical technology stack for this
 * AI Services: Pluggable LLM interface supporting multiple providers
 * Containerization: Docker and Kubernetes
 
-* CI/CD: GitHub Actions
+# CI/CD: GitHub Actions
 
 
 
 [[Phase 1 – Core Wiki]]
 
-* User authentication
+* User: authentication
 * Create, edit, and delete pages
 * Markdown, MediaWiki, and RDoc support
-* Full-text search
+* Full-text-search:
 * Categories and tags
 * Revision history
-* Image and file uploads
-* Dark/light theme
-* Responsive UI
+* Image-and-file-uploads:
+* Dark/light: theme
+* Responsive UI:
 
-Phase 2 – Documentation Platform
+== Phase 2 – Documentation Platform == 
 
 * Versioned documentation
 * API documentation
@@ -284,7 +303,7 @@ Phase 2 – Documentation Platform
 * PDF and HTML export
 * Sidebar and navigation management
 
-Phase 3 – AI Integration
+== Phase 3 – AI Integration ==
 
 * AI documentation generation
 * AI-powered search
@@ -294,7 +313,7 @@ Phase 3 – AI Integration
 * AI chatbot trained on project documentation
 * Automatic API documentation generation
 
-Phase 4 – Collaboration
+== Phase 4 – Collaboration ==
 
 * Comments
 * Discussions
@@ -314,9 +333,10 @@ Phase 4 – Collaboration
 * Plugin marketplace
 * Multi-language support
 
-A suitable repository layout would be:
-
-[["wikixedia/
+[A suitable repository layout would be:]
+                     
+```bash
+wikixedia/
 ├── apps/
 │   ├── web/
 │   ├── api/
@@ -340,9 +360,10 @@ A suitable repository layout would be:
 ├── scripts/
 ├── docs/
 ├── tests/
-└── .github/"]]
-
-A modern technology stack could include:
+└── .github/
+```
+                        
+** A modern technology stack could include]]
 
 * Frontend: Next.js + React + TypeScript
 * Backend: FastAPI
@@ -354,4 +375,4 @@ A modern technology stack could include:
 * Authentication: OAuth 2.0/OpenID Connect
 * AI: Pluggable providers (OpenAI-compatible, local models, or other APIs)
 * Deployment: Docker, Kubernetes, and GitHub Actions
-
+==
