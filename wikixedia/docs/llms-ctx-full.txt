@@ -179,7 +179,7 @@ Wikixedia
     ├── Themes
     └── Plugins
 
-A corresponding monorepo could be:
+A corresponding monorepo can either be:
 
 wikixedia/
 ├── apps/
@@ -216,6 +216,98 @@ wikixedia/
 
 
 *platform that powers documentation across every projects
+I think that’s the strongest direction.
+
+Wikixedia standardize on this stack:
+
+Wikixedia
+│
+├── Frontend
+│   ├── Next.js
+│   ├── React
+│   ├── TypeScript
+│   └── Tailwind CSS
+│
+├── Backend
+│   ├── FastAPI
+│   ├── Python 3.13+
+│   ├── SQLAlchemy
+│   └── Pydantic
+│
+├── Database
+│   ├── PostgreSQL
+│   └── Alembic
+│
+├── Cache
+│   └── Redis
+│
+├── Search
+│   └── OpenSearch
+│
+├── Storage
+│   └── MinIO
+│
+├── AI
+│   ├── LLM Gateway
+│   ├── Embeddings
+│   ├── Semantic Search
+│   └── Documentation Generator
+│
+├── Documentation Engine
+│   ├── NF Parser
+│   ├── Markdown Parser
+│   ├── MediaWiki Parser
+│   ├── RDoc Parser
+│   ├── AsciiDoc Parser
+│   └── reStructuredText Parser
+│
+├── Deployment
+│   ├── Docker
+│   ├── Docker Compose
+│   ├── Kubernetes
+│   └── Nginx
+│
+└── CI/CD
+    ├── GitHub Actions
+    ├── Unit Tests
+    ├── Integration Tests
+    └── Security Scanning
+
+ repository  organized as:
+
+wikixedia/
+├── apps/
+│   ├── web/
+│   ├── api/
+│   └── desktop/
+├── packages/
+│   ├── nf/
+│   ├── parser/
+│   ├── renderer/
+│   ├── ai/
+│   ├── auth/
+│   ├── search/
+│   ├── sdk/
+│   └── ui/
+├── services/
+├── docs/
+├── docker/
+├── kubernetes/
+├── scripts/
+├── tests/
+├── examples/
+└── .github/
+
+I’d also define a clear roadmap:
+
+* v0.1: Core wiki, authentication, page editing, .nf parser, HTML rendering.
+* v0.2: Multi-format support (Markdown, MediaWiki, RDoc, AsciiDoc, reStructuredText).
+* v0.3: Full Next.js frontend with live editing and search.
+* v0.4: AI-assisted documentation, semantic search, and Q&A.
+* v1.0: Plugins, versioned documentation, enterprise features, and high availability.
+
+
+
 Web4, QubuHub, Aura Ecosystem, Fadaka Blockchain, GPT-5 Mini, RODAAI, NeuroMindAI, LAMIS, and future additions—while supporting multiple documentation formats, versioning, AI-assisted authoring, and extensibility through plugins.
 
 ``claude.md`` provide a substantial implementation. A complete codebase for everything that would span tens of thousands of lines across multiple repositories, so it isn’t feasible to generate in a single response.
