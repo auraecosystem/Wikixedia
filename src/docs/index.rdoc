@@ -79,3 +79,76 @@ This wiki is the central documentation hub for the Web4 platform and its associa
 ⸻
 
 Web4 is an ecosystem focused on artificial intelligence, blockchain, cloud technologies, automation, and modern software development. This documentation is designed to help developers, contributors, and users explore, build, and extend the platform.
+
+
+[[web4]]
+├── [[README.md]]
+├── [[LICENSE]]
+├── [CONTRIBUTING.md]]
+├── [[CHANGELOG.md]]
+├── docs/
+│   ├── [[index.md]]
+│   ├── [[getting-started/]]
+│   ├── installation/
+│   ├── architecture/
+│   ├── api/
+│   ├── sdk/
+│   ├── tutorials/
+│   ├── reference/
+│   ├── security/
+│   ├── deployment/
+│   └── projects/
+│       ├── [[web4.md]]
+│       ├── [[qubuhub.md]]
+│       ├── aura-ecosystem.md
+│       ├── [[fadaka-blockchain.md]]
+│       ├── [[gpt5-mini.md]]
+│       ├── rodaai.md
+│       ├── neuromindai.md
+│       └── lamis.md
+├── wiki/
+│   ├── Home.md
+│   ├── FAQ.md
+│   ├── Roadmap.md
+│   ├── Community.md
+│   └── Releases.md
+└── src/
+    └── docs/
+        └── index.rdoc
+
+As the ecosystem expands, you can add documentation for additional components without restructuring the site.
+
+For a production-quality documentation portal, consider including:
+
+* Overview
+* Getting Started
+* Installation
+* Quick Start
+* Architecture
+* AI Services
+* Blockchain
+* Cloud Infrastructure
+* API Reference
+* SDK Documentation
+* CLI Reference
+* Configuration
+* Authentication
+* Database
+* Deployment
+* Docker
+* Kubernetes
+* CI/CD
+* Security
+* Performance
+* Monitoring
+* Tutorials
+* Examples
+* Troubleshooting
+* FAQ
+* Changelog
+* Roadmap
+* Contributing
+* Code of Conduct
+* License
+* Releases
+
