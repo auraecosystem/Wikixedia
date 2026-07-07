@@ -1,5 +1,6 @@
 = Web4 Documentation Portal =
 
+
 Welcome to the official documentation for the Web4 Ecosystem.
 This wiki serves as the central knowledge base for the Web4 platform and its related projects, covering artificial intelligence, blockchain, cloud infrastructure, APIs, SDKs, developer guides, tutorials, and reference materials.
 
@@ -87,81 +88,81 @@ The Web4 Ecosystem includes a collection of platforms and technologies designed 
 * [[Reference]]
 * [[Community]]
 
-Welcome to the Web4 Ecosystem documentation. Explore the guides, contribute to the projects, and help build the next generation of intelligent technologies. 
 
 =  wikixedia Documentation Portal =
 
-Welcome to the official Web4 wikixedia documentation.
-This wiki contains documentation for the complete Web4 ecosystem, including AI, blockchain, cloud infrastructure, APIs, SDKs, and developer resources.
 
-------------------------------------------------------------
+[[Web4]]
 
-== Projects ==
+[[QubuHub]]
 
-* Web4
-* QubuHub
-* Aura Ecosystem
-* Fadaka Blockchain
-* GPT-5 Mini
-* RODAAI
-* NeuroMindAI
-* LAMIS
+[[Aura Ecosystem]]
+
+[[Fadaka Blockchain]]
+
+[[GPT-5 Mini]]
+
+[[RODAAI]]
+
+[[NeuroMindAI]]
+
+[[LAMIS]]
 
 ------------------------------------------------------------
 
 == Documentation ==
 
-* Getting Started
-* Installation
-* Quick Start
-* Architecture
-* API Reference
-* SDK Documentation
-* Authentication
-* Deployment
-* Configuration
+* [[Getting Started.md]]
+* [[Installation.md]]
+* [[Quick Start.md]]
+* [[Architecture.md]]
+* [[API/Reference.md]]
+* [[SDK/Documentation.md]]
+* [[Authentication]]
+* [[Deployment]]
+* [[Configuration]]
 
 ------------------------------------------------------------
 
 == Developer Resources ==
 
-* Project Structure
-* Coding Standards
-* Contributing Guide
-* Docker
-* CI/CD
-* Security
+* [[Project Structure]]
+* [[Coding Standards]]
+* [[Contributing Guide]]
+* [[Docker]]
+* [[CI/CD]]
+* [[Security]]
 
 ------------------------------------------------------------
 
 == Tutorials ==
 
-* Build Your First AI
-* Create an API
-* Deploy to Production
-* Blockchain Development
-* AI Agents
-* Model Integration
+*[[ Build Your First AI ]]
+*[[Create an API]]
+*[[ Deploy to Production]]
+*[[Blockchain Development]]
+*[[AI Agents]]
+*[[ Model Integration]]
 
 ------------------------------------------------------------
 
 == Reference ==
 
-* CLI Commands
-* Environment Variables
-* Error Codes
-* FAQ
-* Changelog
+* [[CLI Commands]]
+* [[Environment Variables]]
+* [[Error Codes]]
+* [[FAQ]]
+* [[Changelog]]
 
 ------------------------------------------------------------
 
 == Community ==
 
-* Discussions
-* Issues
-* Roadmap
-* Releases
+* [[Discussions]]
+* [[Issues]]
+* [[Roadmap]]
 
+* [[Releases]] 
 - [[Web4]]
 - [[QubuHub]]
 - [[Aura Ecosystem]]
@@ -174,7 +175,7 @@ This wiki contains documentation for the complete Web4 ecosystem, including AI, 
 
 ---
 
-## 📖 Documentation
+== 📖 Documentation ==
 
 - [[Getting Started]]
 - [[Installation]]
@@ -185,7 +186,7 @@ This wiki contains documentation for the complete Web4 ecosystem, including AI, 
 
 ---
 
-## 🛠 Developers
+== 🛠 Developers ==
 
 - [[Contributing]]
 - [[Coding Standards]]
