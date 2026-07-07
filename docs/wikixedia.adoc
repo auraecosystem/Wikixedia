@@ -1,0 +1,30 @@
+# Wikixedia Native Format
+
+@title Web4 Documentation Portal
+@version 1.0
+@author Aura Ecosystem
+
+= Web4 Documentation Portal
+
+Welcome to the Web4 Ecosystem documentation.
+
+== Projects
+
+* Web4
+* QubuHub
+* Aura Ecosystem
+* GPT-5 Mini
+* RODAAI
+
+== Documentation
+
+* Getting Started
+* Installation
+* API Reference
+* Architecture
+
+== Tutorials
+
+* First Project
+* AI Services
+* Blockchain Development
