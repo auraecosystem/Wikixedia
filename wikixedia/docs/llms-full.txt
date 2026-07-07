@@ -111,9 +111,21 @@ The Web4 platform provides infrastructure, AI services, blockchain technology, c
 
 ----
 
-Excellent. At this point, I’d treat Wikixedia as a complete documentation platform rather than just a wiki.
+Wikixedia as a complete documentation platform rather than just a wiki.
 
 A long-term architecture could look like this:
+
+@version 1.0
+
+load "docs/index.nf"
+
+render html
+output "./build/index.html"
+
+toc true
+search true
+
+==build==
 
 Wikixedia
 │
