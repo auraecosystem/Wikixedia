@@ -120,7 +120,7 @@ Web4.0 is the next-generation web platform for building connected, intelligent, 
 *[[ Roadmap]]
 * [[Changelog]]
 
-### [[Where to Begin]]
+### [[Where-to-Begin]]
 
 * New users should start with Start and Quick Start.
 * Contributors should read Contributing and Code of Conduct.
