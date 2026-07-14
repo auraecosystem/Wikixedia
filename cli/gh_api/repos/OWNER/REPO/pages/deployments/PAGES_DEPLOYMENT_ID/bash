@@ -1,0 +1,25 @@
+# GitHub CLI api
+# https://cli.github.com/manual/gh_api
+gh api \
+  -H "Accept: application/vnd.github+json" \
+  -H "X-GitHub-Api-Version: 2026-03-10" \
+  /repos/OWNER/REPO/pages/deployments/21765e86708fdc7d37f212edbb891ce8b0543a8b
+# Run actions/deploy-pages@v5
+  with:
+    token: ***
+    timeout: 600000
+    error_count: 10
+    reporting_interval: 5000
+    artifact_name: github-pages
+    preview: false
+(node:2169) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Fetching artifact metadata for "github-pages" in this workflow run
+Found 1 artifact(s)
+Creating Pages deployment with payload:
+{
+	"artifact_id": 8324311098,
+	"pages_build_version": "21765e86708fdc7d37f212edbb891ce8b0543a8b",
+	"oidc_token": "***"
+}
+Created deployment for 21765e86708fdc7d37f212edbb891ce8b0543a8b, ID: 21765e86708fdc7d37f212edbb891ce8b0543a8b
