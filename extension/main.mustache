@@ -1,15 +1,61 @@
-<div class="mw-web4-panel">
-    <h2>{{title}}</h2>
+<div class="wikixedia-extension">
+
+    <header class="wikixedia-header">
+        <h1>{{name}}</h1>
+
+        {{#version}}
+        <span class="wikixedia-version">
+            Version {{version}}
+        </span>
+        {{/version}}
+    </header>
 
     {{#description}}
-    <p>{{description}}</p>
+    <p class="wikixedia-description">
+        {{description}}
+    </p>
     {{/description}}
 
-    <ul>
-    {{#projects}}
-        <li>
-            <a href="{{url}}">{{name}}</a>
-        </li>
-    {{/projects}}
-    </ul>
+    {{#author}}
+    <div class="wikixedia-author">
+        <strong>Author:</strong> {{author}}
+    </div>
+    {{/author}}
+
+    {{#license}}
+    <div class="wikixedia-license">
+        <strong>License:</strong> {{license}}
+    </div>
+    {{/license}}
+
+    {{#features}}
+    <section class="wikixedia-features">
+        <h2>Features</h2>
+
+        <ul>
+            {{#.}}
+            <li>{{.}}</li>
+            {{/.}}
+        </ul>
+    </section>
+    {{/features}}
+
+    {{#commands}}
+    <section class="wikixedia-commands">
+        <h2>Commands</h2>
+
+        <ul>
+            {{#.}}
+            <li><code>{{name}}</code> — {{description}}</li>
+            {{/.}}
+        </ul>
+    </section>
+    {{/commands}}
+
+    {{#footer}}
+    <footer class="wikixedia-footer">
+        {{footer}}
+    </footer>
+    {{/footer}}
+
 </div>
