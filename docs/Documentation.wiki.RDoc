@@ -1,9 +1,10 @@
-# Wikixedia Native Format
-# @title Web4 Documentation Portal
-# @version 1.0
-# @author Aura Ecosystem
+= Wikixedia Native Format
+= @title Web4 Documentation Portal
+= @version 1.0
+= @author Aura Ecosystem
+»
 
-= Web4 Documentation Portal =
+= Web4 Documentation Portal 
 
 Welcome to the Web4 Ecosystem documentation.
 
