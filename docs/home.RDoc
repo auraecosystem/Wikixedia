@@ -22,12 +22,10 @@ Welcome to the Web4 Ecosystem documentation.
 * API Reference
 * Architecture
 
+
 == Tutorials
 
 * First Project
 * AI Services
 * Blockchain Development
-
-
-
 
