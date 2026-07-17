@@ -9,7 +9,7 @@ const App = () => (
     <div className="gravatar-example">
         <h1>Hello, Gravatar!</h1>
         <GravatarSearch />
-        <GravatarCard email="sarahthompson@fork.do" />
+        <GravatarCard email="kubulee.kl@fork.do" />
     </div>
 );
  
