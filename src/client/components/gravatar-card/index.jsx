@@ -1,4 +1,5 @@
 import React from 'react';
+import GravatarSkeleton from './skeleton';
 import './style.scss'
  
 export default function GravatarCard( { gravatarData, hasError, isLoading } ) {
@@ -11,7 +12,7 @@ export default function GravatarCard( { gravatarData, hasError, isLoading } ) {
     }
  
     if ( isLoading ) {
-        return <div>Loading...</div>
+    return <GravatarSkeleton />
     }
  
     if ( ! gravatarData ) {
