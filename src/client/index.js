@@ -5,7 +5,7 @@ import './style.scss';
  
 const App = () => (
     <div className="gravatar-example">
-        <GravatarCard email="sarahthompson@fork.do " />
+        <GravatarCard email="kubulee.kl@fork.do " />
     </div>
 );
  
