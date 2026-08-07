@@ -26,3 +26,27 @@ Wikixedia is designed to provide comprehensive tools and documentation for the A
 > Need help or found an issue? [Report an Issue](https://github.com/auraecosystem/Wikixedia/issues) or visit the main [GitHub Repository](https://github.com/auraecosystem/Wikixedia).
 
 *© Aura Ecosystem. Licensed for public and internal reference.*
+* Environment Variables
+
+This document outlines the required and optional environment variables for the project.
+
+** Core Configuration
+
+#+BEGIN_SRC sh
+export PORT=3000
+export NODE_ENV=development
+export DATABASE_URL="postgres://user:pass@localhost:5432/db"
+#+END_SRC
+
+** Variable Details
+
+| Variable     | Description                       | Default     | Required |
+|--------------+-----------------------------------+-------------+----------|
+| =PORT=       | Port number the server listens on | ~3000~      | No       |
+| =NODE_ENV=   | Application execution environment | ~dev~       | Yes      |
+| =DATABASE_URL= | Database connection string      | N/A         | Yes      |
+
+** Variable List
+- =PORT= :: Specifies the application port number.
+- =NODE_ENV= :: Defines the runtime state (~development~ or ~production~).
+- =DATABASE_URL= :: The full URI for connecting to the database.
