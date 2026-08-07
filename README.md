@@ -14,3 +14,15 @@ Wikixedia is designed to provide comprehensive tools and documentation for the A
 1. **Configure Environment:** Ensure all required environment variables are set up.
 2. **Review Examples:** Check our reference implementations for guidance.
 3. **Contribute:** Follow the contribution guidelines when updating or adding new documentation pages.
+---
+
+### 🌐 Wikixedia Documentation Hub
+
+**Quick Navigation:** [Home](https://github.com/auraecosystem/Wikixedia/wiki/Start) | [Docs Directory](https://github.com/auraecosystem/Wikixedia/wiki/Docs) | [Environment Variables](https://github.com/auraecosystem/Wikixedia/wiki/Environment-Variables) | [Docker Setup](https://github.com/auraecosystem/Wikixedia/wiki/Docker) | [Roadmap](https://github.com/auraecosystem/Wikixedia/wiki/Roadmap) | [a-Examples.com](https://github.com/auraecosystem/Wikixedia/wiki/a-Examples.com)
+
+---
+
+> **Wikixedia** is maintained by the **Aura Ecosystem** team.  
+> Need help or found an issue? [Report an Issue](https://github.com/auraecosystem/Wikixedia/issues) or visit the main [GitHub Repository](https://github.com/auraecosystem/Wikixedia).
+
+*© Aura Ecosystem. Licensed for public and internal reference.*
